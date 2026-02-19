@@ -155,7 +155,7 @@ EMEA and Africa are mid-tier at ~11K and ~10K respectively — large enough to m
 
 ---
 
-## 6. Strategic Recommendations
+## 6. Recommendations
 
 ### Priority 1: Investigate and Fix Non-Profitable Orders
 27% of orders (13,134) lose money. Break down by product sub-category, market, and customer segment to identify the specific drivers. Options include discontinuing loss-making products, repricing, adjusting discount policies, or renegotiating shipping costs. Even converting half of these to break-even would meaningfully improve the 11.43% margin.
@@ -179,18 +179,6 @@ Profit doubled from $232K to $470K, but this was driven entirely by order volume
 The analysis uses the Global Superstore dataset covering 51,290 transaction records from 2011 to 2014. Data was cleaned, validated, and analysed entirely in Excel using pivot tables, calculated fields for profitability segmentation, and an interactive dashboard with slicers for multi-dimensional drill-down.
 
 The Excel workbook contains the following sheets: Dashboard (interactive summary), Orders (raw transactional data), Returns (return records), People (employee/salesperson data), and individual analysis sheets for each business question.
-
----
-
----
-
-## Future Enhancements
-
-- Break down profitability by product sub-category to identify the specific loss-making items
-- Add profit margin analysis by market (not just volume)
-- Customer-level analysis to identify high-value vs loss-generating accounts
-- Returns impact quantification and root cause analysis
-- Migrate to Power BI for richer interactivity and cross-filtering
 
 ---
 
